@@ -1,0 +1,156 @@
+body {
+height: 100%;
+width: 100%;
+background-color: #121013;
+background-image: linear-gradient(
+
+  #121013 20%,
+  #A91079 100%,
+  #F806CC 10%
+  );
+
+
+
+
+  /* background-color: #121013; */
+  font-family: 'Sen', sans-serif;
+}
+
+/* navbar */
+#headear {
+  padding: 0 16% 0 16%;
+}
+
+.nav-item {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #F806CC;
+}
+
+.btn-outline-primary {
+  color: #F806CC;
+  border-color: #F806CC;
+  border-radius: 100px;
+}
+
+.btn-outline-primary:hover {
+  color: white;
+  background-color: #F806CC;
+  border-color: #F806CC;
+}
+
+
+.elipase {
+
+  position: absolute;
+
+
+
+}
+
+
+/*Home*/
+#Home {
+  margin-top: 5%;
+  padding: 0 15% 0 15%;
+  text-align: center;
+}
+
+.home-text {
+  padding-top: 5%;
+  text-align: center;
+}
+#loading {
+  stroke-dasharray: 670;
+  stroke-dashoffset: 670;
+
+  fill: transparent;
+  animation: draw 3s ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: alternate;
+}
+
+#loading2 {
+  stroke-dasharray: 670;
+  stroke-dashoffset: 670;
+
+  fill: transparent;
+  animation: drew 3s ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: alternate;
+}
+@keyframes drew {
+  to {
+    stroke-dashoffset: 0;
+    fill: #F806CC;
+
+  }
+}
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+    fill:  linear-gradient(
+
+      #121013 30%,
+      #A91079 100%,
+      #F806CC 50%
+      );
+
+  }
+
+
+
+}
+h1 {
+
+  color: #F806CC;
+  line-height: 2;
+  font-weight: bold;
+}
+
+h2 {
+  display: inline-block;
+  color: white;
+  font-weight: lighter;
+}
+
+
+/* Services */
+#Services{
+  margin-top: 10%;
+  padding: 0 15% 0 15%;
+  text-align: center;
+
+}
+.card {
+  margin: 10% 0 10% 0;
+  background-color: #121013 ;
+  background-image: linear-gradient(
+
+    #121013 20%,
+    #A91079 100%,
+    #F806CC 50%
+    );
+  border-width: thin;
+  border-color: white;
+}
+.card-title {
+color: #F806CC;
+}
+.card-text {
+  color: white;
+}
+.webdesign {
+  width: 100px;
+  margin: 0 auto;
+  padding-top: 30%;
+  padding-bottom: 35%;
+
+
+}
+.hidden {
+visibility: hidden;
+}
